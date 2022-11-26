@@ -1,0 +1,3 @@
+.text {
+    -unity-font-definition: resource('RubikMonoOne-Regular SDF');
+}

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Tests/FontsTests/fonttest.uss?fileID=7433441132597879392&amp;guid=782e77e110330e04c932ef0a76b67a06&amp;type=3#fonttest" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="text" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="text" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="text" />
+</ui:UXML>

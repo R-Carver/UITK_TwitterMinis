@@ -1,0 +1,23 @@
+.container {
+    background-color: rgb(18, 28, 45);
+    width: 80%;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem {
+    width: 387px;
+    flex-grow: 0;
+    height: 80px;
+    background-color: rgb(255, 241, 179);
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+}

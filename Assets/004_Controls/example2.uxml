@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/004_Controls/Controls_Project/StarControl/Resources/StarControl_Stylesheet.uss?fileID=7433441132597879392&amp;guid=bf0c74792a59cef41835a200487d36f2&amp;type=3#StarControl_Stylesheet" />
+    <ui:VisualElement name="container" style="background-color: rgb(235, 86, 86); flex-grow: 1; padding-left: 80px; padding-right: 80px; padding-top: 80px; padding-bottom: 80px;">
+        <ui:VisualElement name="item1" style="padding-left: 30px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-direction: row; background-color: rgb(18, 28, 45); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; margin-bottom: 20px;">
+            <ui:VisualElement name="img" style="background-image: url(&apos;project://database/Assets/img/oldman.png?fileID=2800000&amp;guid=ab4fc534083a182409d654cbb7816519&amp;type=3#oldman&apos;); width: 64px; height: 64px; margin-right: 50px;" />
+            <ui:Label tabindex="-1" text="Harry Bosch" display-tooltip-when-elided="true" name="name" style="-unity-font-definition: url(&apos;project://database/Assets/fonts/RubikMonoOne-Regular%20SDF.asset?fileID=11400000&amp;guid=28b5a48fc2635534abafe96c4521ac0d&amp;type=2#RubikMonoOne-Regular SDF&apos;); -unity-text-align: middle-left; font-size: 25px; color: rgb(255, 241, 179); width: 300px;" />
+            <ui:VisualElement style="height: auto; flex-grow: 1; padding-left: 50px; padding-right: 50px; align-items: center; justify-content: center;">
+                <CustomControls.StarControl stars="3" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="item2" style="padding-left: 30px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-direction: row; background-color: rgb(18, 28, 45); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; margin-bottom: 20px;">
+            <ui:VisualElement name="img" style="background-image: url(&apos;project://database/Assets/img/boy.png?fileID=2800000&amp;guid=7fba07ab88f8bb54a82c7ca699d7abb0&amp;type=3#boy&apos;); width: 64px; height: 64px; margin-right: 50px;" />
+            <ui:Label tabindex="-1" text="Bruce Wayne" display-tooltip-when-elided="true" name="name" style="-unity-font-definition: url(&apos;project://database/Assets/fonts/RubikMonoOne-Regular%20SDF.asset?fileID=11400000&amp;guid=28b5a48fc2635534abafe96c4521ac0d&amp;type=2#RubikMonoOne-Regular SDF&apos;); -unity-text-align: middle-left; font-size: 25px; color: rgb(255, 241, 179); width: 300px;" />
+            <ui:VisualElement style="height: auto; flex-grow: 1; padding-left: 50px; padding-right: 50px; align-items: center; justify-content: center;">
+                <CustomControls.StarControl stars="5" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="item3" style="padding-left: 30px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-direction: row; background-color: rgb(18, 28, 45); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; margin-bottom: 20px;">
+            <ui:VisualElement name="img" style="background-image: url(&apos;project://database/Assets/img/man.png?fileID=2800000&amp;guid=860ae1d6772ee8c40a1f1ab440008e56&amp;type=3#man&apos;); width: 64px; height: 64px; margin-right: 50px;" />
+            <ui:Label tabindex="-1" text="Tony Stark" display-tooltip-when-elided="true" name="name" style="-unity-font-definition: url(&apos;project://database/Assets/fonts/RubikMonoOne-Regular%20SDF.asset?fileID=11400000&amp;guid=28b5a48fc2635534abafe96c4521ac0d&amp;type=2#RubikMonoOne-Regular SDF&apos;); -unity-text-align: middle-left; font-size: 25px; color: rgb(255, 241, 179); width: 300px;" />
+            <ui:VisualElement name="rating" style="height: auto; flex-grow: 1; padding-left: 50px; padding-right: 50px; align-items: center; justify-content: center;">
+                <CustomControls.StarControl stars="7" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/5min/Flexbox/Resources/Stylesheet_Flexbox.uss?fileID=7433441132597879392&amp;guid=040c05bfc69bfee4abfb61355da21cae&amp;type=3#Stylesheet_Flexbox" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <Flexbox_5min.DemoRect style="height: 150px;" />
+    </ui:VisualElement>
+</ui:UXML>

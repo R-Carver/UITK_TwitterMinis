@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/004_Controls/Controls_Project/StarControl/Resources/StarControl_Stylesheet.uss?fileID=7433441132597879392&amp;guid=bf0c74792a59cef41835a200487d36f2&amp;type=3#StarControl_Stylesheet" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(18, 28, 45); align-items: center; justify-content: center;">
+        <ui:VisualElement name="spaceshipContainer" style="flex-direction: row; width: 90%; justify-content: space-around;">
+            <ui:VisualElement name="item1" style="align-items: center;">
+                <ui:VisualElement name="img" style="background-image: url(&apos;project://database/Assets/img/rocket-ship.png?fileID=2800000&amp;guid=33229633f68af6043b8a56cd0ddf20b2&amp;type=3#rocket-ship&apos;); width: 100px; height: 100px; margin-bottom: 20px;" />
+                <ui:VisualElement name="rating" style="width: 200px; height: 80px;">
+                    <CustomControls.StarControl stars="5" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="item2" style="align-items: center;">
+                <ui:VisualElement name="img" style="background-image: url(&apos;project://database/Assets/img/space-ship.png?fileID=2800000&amp;guid=07fb3c703da9bd5459a863c55336e6da&amp;type=3#space-ship&apos;); width: 100px; height: 100px; margin-bottom: 20px;" />
+                <ui:VisualElement name="rating" style="width: 200px; height: 80px;">
+                    <CustomControls.StarControl stars="6" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="item3" style="align-items: center;">
+                <ui:VisualElement name="img" style="background-image: url(&apos;project://database/Assets/img/spaceship.png?fileID=2800000&amp;guid=81f013c85d9c20b41be5895a4c86a9f3&amp;type=3#spaceship&apos;); width: 100px; height: 100px; margin-bottom: 20px;" />
+                <ui:VisualElement name="rating" style="width: 200px; height: 80px;">
+                    <CustomControls.StarControl stars="2" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
